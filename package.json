@@ -1,7 +1,13 @@
 {
-  "name": "vita-rutina",
+  "homepage": "https://daniel-avila-z.github.io/vita-rutina/",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniel-avila-z/vita-rutina"
+  },
+  "name": "vita-rutina",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -25,7 +31,7 @@
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
   },
-  "description": "",
+
   "main": "next.config.js",
   "author": "Daniel Avila",
   "license": "ISC"
