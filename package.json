@@ -1,38 +1,28 @@
 {
-  "homepage": "https://daniel-avila-z.github.io/vita-rutina/",
-  "version": "1.0.0",
-  "description": "",
-  "repository": {
+"homepage": "https://daniel-avila-z.github.io/vita-rutina/",
+"name": "vita-rutina",
+"version": "1.0.0",
+"description": "",
+"repository": {
     "type": "git",
     "url": "https://github.com/daniel-avila-z/vita-rutina"
-  },
-  "name": "vita-rutina",
-  "private": false,
-  "scripts": {
+},
+"scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "@next/font": "13.1.2",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.2",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+"keywords": [],
+"author": "Daniel Avila",
+"license": "ISC",
+"dependencies": {
+    "@next/font": "^13.2.4",
     "next": "^13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "standard": "17.0.0"
-  },
-  "eslintConfig": {
-    "extends": ""
-  },
-
-  "main": "next.config.js",
-  "author": "Daniel Avila",
-  "license": "ISC"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+}
 }
