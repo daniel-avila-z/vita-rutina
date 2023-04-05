@@ -3,6 +3,10 @@
   border-radius: 4px;
   padding: 4px;
 }
+nav{
+  margin: 0;
+  padding: 5px;
+}
 .navigation{
   display: flex;
   list-style: none;
@@ -17,8 +21,12 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin: 20px;
+  margin: 10px;
   flex-wrap: wrap;
+  z-index: 20;
+  position: fixed;
+  top: auto;
+  left: auto;
 }
 
 .toggle-category {
@@ -26,6 +34,8 @@
   flex-direction: column;
   gap: 5px;
   font-size: 1.2rem;
+  width: 150px;
+  flex-wrap: nowrap;
 }
 
 .toggle-category h3 {
@@ -46,6 +56,8 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  width: 222px;
+
 }
 
 .toggle-subcategories li,

@@ -81,12 +81,52 @@ const Toggle = () => {
           <ul className='toggle-subcategories'>
             <li>
               <Link href='/mascarillas/en-polvo' legacyBehavior>
-                En polvo
+                En Polvo
               </Link>
             </li>
             <li>
               <Link href='/mascarillas/en-crema' legacyBehavior>
-                En crema
+                En Crema
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Solida Térmica
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Pastosas
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                En Gel
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Fango o Barro Termas
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Velo
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Pastica Fría
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Peel-off
+              </Link>
+            </li>
+            <li>
+              <Link href='/mascarillas/en-crema' legacyBehavior>
+                Batidos
               </Link>
             </li>
           </ul>
