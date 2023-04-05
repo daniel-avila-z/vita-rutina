@@ -1,0 +1,67 @@
+.header{
+  border: 1px solid rgb(227, 63, 63);
+  border-radius: 4px;
+  padding: 4px;
+}
+.navigation{
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.navigation a:hover{
+  color: rgb(0, 255, 255);
+  text-decoration: underline;
+}
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.toggle-category {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.2rem;
+}
+
+.toggle-category h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.toggle-category h3:hover {
+  background-color: #ddd;
+}
+
+.toggle-subcategories,
+.toggle-sub-subcategories {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-subcategories li,
+.toggle-sub-subcategories li {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-subcategories li:hover,
+.toggle-sub-subcategories li:hover {
+  background-color: #ccc;
+}
+
+.toggle-sub-subcategories {
+  margin-left: 20px;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vita-rutina",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2",
+    "next": "^13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "standard": "17.0.0"
+  },
+  "description": "",
+  "main": "next.config.js",
+  "author": "Daniel Avila",
+  "license": "ISC"
+}
