@@ -1,6 +1,6 @@
 'use client'
 // import React, { useState } from 'react'
-import '../styles/ChatGpt.css'
+import '../styles/Navbar.css'
 
 // const Toggle = () => {
 //   const [activeCategory, setActiveCategory] = useState('mascarillas')
@@ -55,7 +55,7 @@ import '../styles/ChatGpt.css'
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-const Toggle = () => {
+export const NavBar = () => {
   const [activeCategory, setActiveCategory] = useState('')
   const [activeSubCategory, setActiveSubCategory] = useState('')
 
@@ -165,4 +165,4 @@ const Toggle = () => {
   )
 }
 
-export default Toggle
+

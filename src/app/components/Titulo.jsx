@@ -3,7 +3,7 @@ import '../styles/Titulo.css'
 export function Titulo () {
   return (
     <div className='titulo'>
-      <h1>Vita Rutina</h1>
+      <h2>Vita Rutina</h2>
     </div>
   )
 }
