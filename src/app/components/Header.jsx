@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar.jsx'
 import Titulo from './Titulo.jsx'
 
 export default function Header () {
@@ -8,7 +7,6 @@ export default function Header () {
       <section>
         <Titulo />
       </section>
-        <Navbar />
     </header>
   )
 }
