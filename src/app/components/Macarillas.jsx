@@ -11,7 +11,7 @@ export default function Mascarillas () {
                 </h2>
             </div>
             <div className='mask-card'>
-                <Image className='mask-image' src={Mascarilla1} />
+                <Image alt='mascarilla' className='mask-image' src={Mascarilla1} />
                 <div className='mask-text-container'>
                     <h3 className='mask-titulo'>Mascarilla de Granada</h3>
                     <h3 className='mask-main-beneficio'>Aclara y nutre</h3>
