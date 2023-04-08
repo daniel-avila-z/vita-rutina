@@ -1,12 +1,22 @@
-import { Header } from './components/Header'
+import Header from './components/Header'
+import Mascarillas from './components/Macarillas'
+import Mockup from './components/Mockup'
+// import EfectoEscritura from './components/EfectoEscritura'
 
 export default function Home () {
+  // const words = ['React', 'JavaScript', 'HTML', 'CSS']
   return (<>
     <Header />
     <main className=''>
-      <div className=''>
-        <h1>Hola, Estas en Home</h1>
+      <div className='main-container'>
+        <div>
+          <h1>Te ofrecemos la mejor rutina para tu cuidado facial,</h1>
+          <h2>con cremas 100% naturales</h2>
+        </div>
+        <Mockup />
       </div>
+      <Mascarillas />
+      {/* <EfectoEscritura words={words} /> */}
     </main>
   </>)
 }

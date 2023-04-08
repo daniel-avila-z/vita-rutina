@@ -1,0 +1,63 @@
+.mask-main-container{
+    /*width: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.mask-titulo-container{
+    text-align: center;
+}
+.mask-main-title{
+    font-size: 40px;
+}
+.mask-card{
+    display: flex;
+    padding: 10px;
+    /* width: 100vw; */
+    /* height: 100%; */
+    background: #96ffff;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-radius: 13px;
+}
+
+.mask-image{
+    width: 217px;
+    height: auto;
+}
+.mask-text-container{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* align-content: center; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.mask-titulo{
+
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    color: #ff003a;
+    /* background: #8bffd3; */
+    border-radius: 20px;
+    margin: 5px 0;
+
+}
+
+
+.mask-main-beneficio{
+    /* background: aquamarine; */
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px 0;
+}
+.mask-beneficio{
+    font-size: 20px;
+}
+

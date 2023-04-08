@@ -1,28 +1,39 @@
 {
-"homepage": "https://daniel-avila-z.github.io/vita-rutina/",
-"name": "vita-rutina",
-"version": "1.0.0",
-"description": "",
-"repository": {
-    "type": "git",
-    "url": "https://github.com/daniel-avila-z/vita-rutina"
-},
-"scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
-},
-"keywords": [],
-"author": "Daniel Avila",
-"license": "ISC",
-"dependencies": {
-    "@next/font": "^13.2.4",
-    "next": "^13.2.4",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-}
+    "homepage": "https://daniel-avila-z.github.io/vita-rutina/",
+    "name": "vita-rutina",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/daniel-avila-z/vita-rutina"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Daniel Avila",
+    "license": "ISC",
+    "dependencies": {
+        "@next/font": "^13.2.4",
+        "next": "^13.2.4",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.37.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.7.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2"
+    },
+    "eslintConfig": {
+        "extends": "./node_modules/standard/eslintrc.json"
+    }
 }

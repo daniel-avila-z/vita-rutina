@@ -1,0 +1,33 @@
+.typing-effect {
+    display: inline-block;
+    position: relative;
+}
+
+.word {
+display: inline-block;
+overflow: hidden;
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+border-right: 0.1em solid #333;
+white-space: nowrap;
+}
+
+.cursor {
+position: absolute;
+right: -0.1em;
+top: 0;
+bottom: 0;
+width: 0.2em;
+background-color: transparent;
+animation: cursor-blink 7s infinite;
+}
+
+@keyframes cursor-blink {
+from {
+    background-color: #333;
+}
+to {
+    background-color: transparent;
+}
+}
