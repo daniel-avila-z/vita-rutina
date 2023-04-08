@@ -8,9 +8,7 @@ export default function Header () {
       <section>
         <Titulo />
       </section>
-      <nav>
         <NavBar />
-      </nav>
     </header>
   )
 }
