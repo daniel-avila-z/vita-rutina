@@ -1,6 +1,6 @@
 import '../styles/Titulo.css'
 
-export function Titulo () {
+export default function Titulo () {
   return (
     <div className='titulo'>
       <h2>Vita Rutina</h2>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavBar } from './Navbar'
-import { Titulo } from './Titulo'
+import NavBar from './Navbar'
+import Titulo from './Titulo'
 
 export default function Header () {
   return (

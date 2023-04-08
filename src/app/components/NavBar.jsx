@@ -55,7 +55,7 @@ import '../styles/Navbar.css'
 import React, { useState } from 'react'
 import Link from 'next/link'
 
-export const NavBar = () => {
+export default function NavBar () {
   const [activeCategory, setActiveCategory] = useState('')
   const [activeSubCategory, setActiveSubCategory] = useState('')
 

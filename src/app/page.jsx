@@ -16,7 +16,6 @@ export default function Home () {
         <Mockup />
       </div>
       <Mascarillas />
-      {/* <EfectoEscritura words={words} /> */}
     </main>
   </>)
 }
