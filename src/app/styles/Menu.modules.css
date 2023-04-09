@@ -1,0 +1,48 @@
+.category {
+    margin-bottom: 10px;
+  }
+  
+  .categoryName {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .activeCategory {
+    font-weight: bold;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .subcategory {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .subcategoryName {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .activeSubcategory {
+    font-weight: bold;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .subsubcategory {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .subsubcategoryName {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .subsubcategoryContent {
+    display: none;
+  }
+  
+  .activeSubsubcategory .subsubcategoryContent {
+    display: block;
+  }

@@ -1,39 +1,73 @@
 nav{
-  margin: 0;
-  padding: 5px;
-}
-.navigation{
   display: flex;
-  list-style: none;
-  gap: 32px;
+  width: 100%;
+  height: 50px;
+  /* margin: 0; */
+  /* padding-left: 30px; */
+  /* padding-top: 5px; */
+  /* border: 1px solid slateblue; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-.navigation a:hover{
-  color: rgb(0, 255, 255);
-  text-decoration: underline;
-}
 .toggle-container {
   display: flex;
-  flex-direction: row;
   gap: 10px;
-  margin: 10px;
-  flex-wrap: wrap;
+  margin-top: 0px;
+  flex-wrap: nowrap;
   z-index: 20;
   position: fixed;
-  top: auto;
-  left: auto;
+  top: 0px;
+  left: 0px;
+  flex-direction: row;
+  padding: 10px;
 }
 
 .toggle-category {
   display: flex;
-  flex-direction: column;
   gap: 5px;
-  font-size: 1.2rem;
+  font-size: 21px;
   width: 150px;
   flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-direction: column;
+  height: inherit;
 }
 
-.toggle-category h3 {
+.toggle-ul-mascarillas{
+  list-style: none;
+  width: 100%;
+  /* height: 204px; */
+  margin-top: 50px;
+  padding-left: 0px;
+  position: absolute;
+  top: 11px;
+  left: 43px;
+}
+.toggle-ul-productos{
+  list-style: none;
+  width: 100%;
+  /* height: 204px; */
+  margin-top: 50px;
+  padding-left: 0px;
+  position: absolute;
+  top: 11px;
+  left: 120%;
+}
+.toggle-li{
+  list-style: none;
+  margin-left: 0px;
+}
+.subtoggle-ul{
+  list-style: none;
+  width: 100%;
+  /* height: 204px; */
+  margin-top: 0px;
+  padding-left: 5px;
+}
+.toggle-category button {
   margin: 0;
   padding: 10px;
   background-color: #eee;
@@ -42,7 +76,7 @@ nav{
   border-radius: 10px;
 }
 
-.toggle-category h3:hover {
+.toggle-category button:hover {
   background-color: #ddd;
 }
 
@@ -50,25 +84,34 @@ nav{
 .toggle-sub-subcategories {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  width: 222px;
-
+  /* margin-left: 40px; */
+  width: -webkit-fill-available;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.toggle-subcategories li,
+/* .toggle-subcategories li,
 .toggle-sub-subcategories li {
   margin: 0;
   padding: 10px;
   background-color: #ddd;
   cursor: pointer;
   font-weight: bold;
-}
+  width: auto;
+} */
 
-.toggle-subcategories li:hover,
+/* .toggle-subcategories li:hover,
 .toggle-sub-subcategories li:hover {
   background-color: #ccc;
-}
+} */
 
 .toggle-sub-subcategories {
-  margin-left: 20px;
+  list-style-type: none;
+  padding: 0;
+  /* margin-left: 40px; */
+  width: -webkit-fill-available;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
 }

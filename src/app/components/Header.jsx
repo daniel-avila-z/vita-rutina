@@ -1,5 +1,7 @@
 import React from 'react'
-import Titulo from './Titulo.jsx'
+import Navbar from './Navbar.jsx'
+import Titulo from './Titulo'
+import '../styles/Navbar.css'
 
 export default function Header () {
   return (
@@ -7,6 +9,7 @@ export default function Header () {
       <section>
         <Titulo />
       </section>
+        <Navbar />
     </header>
   )
 }
