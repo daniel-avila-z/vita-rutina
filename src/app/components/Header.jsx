@@ -4,12 +4,10 @@ import Titulo from './Titulo'
 import '../styles/Navbar.css'
 
 export default function Header () {
-  return (
-    <header>
-      <section>
-        <Titulo />
-      </section>
-        <Navbar />
-    </header>
-  )
+  return (<>
+    <section>
+      <Titulo />
+    </section>
+    <Navbar />
+  </>)
 }

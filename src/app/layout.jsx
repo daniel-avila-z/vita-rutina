@@ -6,7 +6,9 @@ export default function RootLayout ({ children }) {
     <html lang='en'>
       <head />
       <body>
-        <Header />
+        <header>
+          <Header />
+        </header>
         {children}
       </body>
     </html>
