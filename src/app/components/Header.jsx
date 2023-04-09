@@ -5,7 +5,7 @@ import '../styles/Navbar.css'
 
 export default function Header () {
   return (<>
-    <section>
+    <section >
       <Titulo />
     </section>
   </>)
