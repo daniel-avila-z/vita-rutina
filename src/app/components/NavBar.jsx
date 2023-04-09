@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import '../styles/NewNavbar.css'
 
-export default function Navbar () {
+const Navbar = () => {
   const [showMascarillas, setShowMascarillas] = useState(false)
   const [showProductos, setShowProductos] = useState(false)
 
@@ -43,41 +43,11 @@ export default function Navbar () {
           </ul>
         )}
       </nav>
-      {/* <DropdownMenu.Root>
-      <DropdownMenu.Trigger className='toggle-category' >
-        <h3>Mascarillas</h3>
-      </DropdownMenu.Trigger>
-
-      <DropdownMenu.Content className='toggle-subcategories'>
-        <DropdownMenu.Item className='toggle-subcategories'>En Polvo</DropdownMenu.Item>
-        <DropdownMenu.Item className='toggle-subcategories'>1</DropdownMenu.Item>
-        <DropdownMenu.Item className='toggle-subcategories'>1</DropdownMenu.Item>
-      </DropdownMenu.Content>
-      </DropdownMenu.Root>
-      <DropdownMenu.Root>
-      <DropdownMenu.Trigger className='toggle-category' >
-        <h3>Productos</h3>
-      </DropdownMenu.Trigger>
-
-      <DropdownMenu.Content className='toggle-subcategories'>
-        <DropdownMenu.Item className='toggle-subcategories'>En Polvo</DropdownMenu.Item>
-        <DropdownMenu.Item className='toggle-subcategories'>1</DropdownMenu.Item>
-        <DropdownMenu.Item className='toggle-subcategories'>1</DropdownMenu.Item>
-        <DropdownMenu.Sub>
-          <DropdownMenu.SubTrigger>Sub menu →</DropdownMenu.SubTrigger>
-          <DropdownMenu.Portal>
-            <DropdownMenu.SubContent className='toggle-subcategories'>
-              <DropdownMenu.Item className='toggle-subcategories'>Sub menu item</DropdownMenu.Item>
-              <DropdownMenu.Item className='toggle-subcategories'>Sub menu item</DropdownMenu.Item>
-              <DropdownMenu.Arrow />
-            </DropdownMenu.SubContent>
-          </DropdownMenu.Portal>
-        </DropdownMenu.Sub>
-      </DropdownMenu.Content>
-      </DropdownMenu.Root> */}
     </div>
   )
 }
+
+export default Navbar
 
 // import React, { useState } from 'react'
 // import Link from 'next/link'

@@ -1,4 +1,4 @@
-import Header from './components/Header'
+// import Header from './components/Header'
 import Mascarillas from './components/Macarillas'
 import Mockup from './components/Mockup'
 // import EfectoEscritura from './components/EfectoEscritura'
@@ -6,7 +6,6 @@ import Mockup from './components/Mockup'
 export default function Home () {
   // const words = ['React', 'JavaScript', 'HTML', 'CSS']
   return (<>
-    <Header />
     <main className=''>
       <div className='main-container'>
         <div>
