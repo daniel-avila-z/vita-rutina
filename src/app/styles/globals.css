@@ -102,7 +102,7 @@ main {
   flex-wrap: wrap;
   align-items: center;
 }
-header {
+.header {
   background: aquamarine;
   display: flex;
   /* width: 100%; */

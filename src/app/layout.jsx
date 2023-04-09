@@ -7,10 +7,10 @@ export default function RootLayout ({ children }) {
     <html lang='en'>
       <head />
       <body>
-        <header>
+        <div className='header'>
           <Header />
           <Navbar />
-        </header>
+        </div>
         {children}
       </body>
     </html>

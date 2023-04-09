@@ -2,9 +2,10 @@
 import React, { useState } from 'react'
 // import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import '../styles/Navbar.css'
-import '../styles/NewNavbar.css'
+import { useRouter } from 'next/navigation'
 
 const Navbar = () => {
+  const router = useRouter()
   const [showMascarillas, setShowMascarillas] = useState(false)
   const [showProductos, setShowProductos] = useState(false)
 
@@ -23,21 +24,21 @@ const Navbar = () => {
         <button className='toggle-category' onClick={toggleMascarillas}>Mascarillas</button>
         {showMascarillas && (
           <ul className='toggle-ul-mascarillas'>
-            <li className='toggle-li'><button className='toggle-subcategories'>Item 1</button></li>
-            <li className='toggle-li'><button className='toggle-subcategories'>Item 2</button></li>
-            <li className='toggle-li'><button className='toggle-subcategories'>Item 3</button></li>
+            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 1</button></li>
+            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 2</button></li>
+            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 3</button></li>
           </ul>
         )}
         <button className='toggle-category' onClick={toggleProductos}>Productos</button>
         {showProductos && (
           <ul className='toggle-ul-productos'>
-            <li className='toggle-li'><button className='toggle-subcategories'>Item 1</button></li>
-            <li className='toggle-li'><button className='toggle-subcategories'>Item 2</button></li>
+            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 1</button></li>
+            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 2</button></li>
             <li className='toggle-li'>
               <button className='toggle-subcategories'>Item 3</button>
               <ul className='subtoggle-ul'>
-                <li className='toggle-li'><button className='toggle-subcategories'>Subitem 1</button></li>
-                <li className='toggle-li'><button className='toggle-subcategories'>Subitem 2</button></li>
+                <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Subitem 1</button></li>
+                <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Subitem 2</button></li>
               </ul>
             </li>
           </ul>
