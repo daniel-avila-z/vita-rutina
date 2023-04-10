@@ -34,40 +34,68 @@ nav{
   justify-content: space-around;
   flex-direction: column;
   height: inherit;
+  cursor: pointer;
 }
 
 .toggle-ul-mascarillas{
+  background: #efefef;
   list-style: none;
-  width: 100%;
-  /* height: 204px; */
+  height: 204px;
   margin-top: 50px;
   padding-left: 0px;
   position: absolute;
   top: 11px;
-  left: 43px;
+  left: 35px;
+  display: flex;
+  gap: 5px;
+  font-size: 21px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .toggle-ul-productos{
+  background: #efefef;
   list-style: none;
-  width: 100%;
-  /* height: 204px; */
+  height: 204px;
   margin-top: 50px;
   padding-left: 0px;
   position: absolute;
   top: 11px;
-  left: 120%;
+  left: 208px;
+  display: flex;
+  gap: 5px;
+  font-size: 21px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .toggle-li{
   list-style: none;
   margin-left: 0px;
 }
-.subtoggle-ul{
+.subtoggle-ul-productos{
+  background: #efefef;
   list-style: none;
-  width: 100%;
-  /* height: 204px; */
-  margin-top: 0px;
-  padding-left: 5px;
+  height: 204px;
+  margin-top: 50px;
+  padding-left: 0px;
+  position: absolute;
+  top: 90px;
+  left: 150px;
+  display: flex;
+  gap: 5px;
+  font-size: 21px;
+  width: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
-.toggle-category button {
+.toggle-category a {
   margin: 0;
   padding: 10px;
   background-color: #eee;
@@ -76,7 +104,7 @@ nav{
   border-radius: 10px;
 }
 
-.toggle-category button:hover {
+.toggle-category a:hover {
   background-color: #ddd;
 }
 
@@ -89,6 +117,8 @@ nav{
   height: 50px;
   font-size: 15px;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
 
 /* .toggle-subcategories li,

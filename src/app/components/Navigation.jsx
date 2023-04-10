@@ -1,13 +1,26 @@
 'use client'
 import React, { useState } from 'react'
 // import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
-import '../styles/Navbar.css'
-import { useRouter } from 'next/navigation'
+import '../styles/Navigation.css'
+// import styles from '../styles/Navigation.modules.css'
+import Link from 'next/link'
+const links = [{
+  label: 'Home',
+  route: '/'
+}, {
+  label: 'About',
+  route: '/about'
+}, {
+  label: 'Posts',
+  route: '/posts'
+}
 
-const Navbar = () => {
-  const router = useRouter()
+]
+
+export default function Navigation () {
   const [showMascarillas, setShowMascarillas] = useState(false)
   const [showProductos, setShowProductos] = useState(false)
+  const [showSubProductos, setShowSubProductos] = useState(false)
 
   const toggleMascarillas = () => {
     setShowMascarillas(!showMascarillas)
@@ -18,37 +31,51 @@ const Navbar = () => {
     setShowProductos(!showProductos)
     setShowMascarillas(false)
   }
+
+  const toggleSubProductos = () => {
+    setShowSubProductos(!showSubProductos)
+    setShowMascarillas(false)
+  }
   return (
-    <div className='toggle-container'>
+    <header>
+      <div className='toggle-container'>
       <nav>
         <button className='toggle-category' onClick={toggleMascarillas}>Mascarillas</button>
         {showMascarillas && (
           <ul className='toggle-ul-mascarillas'>
-            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 1</button></li>
-            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 2</button></li>
-            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 3</button></li>
+            {links.map(({ label, route }) => (
+              <li className='toggle-li' key={label}>
+                <Link className='toggle-subcategories' href={route}>{label}</Link>
+              </li>
+            ))}
           </ul>
         )}
         <button className='toggle-category' onClick={toggleProductos}>Productos</button>
         {showProductos && (
           <ul className='toggle-ul-productos'>
-            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 1</button></li>
-            <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Item 2</button></li>
-            <li className='toggle-li'>
-              <button className='toggle-subcategories'>Item 3</button>
-              <ul className='subtoggle-ul'>
-                <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Subitem 1</button></li>
-                <li className='toggle-li'><button type='button' onClick={() => router.push('/')} className='toggle-subcategories'>Subitem 2</button></li>
-              </ul>
+          {links.map(({ label, route }) => (
+            <li className='toggle-li' key={label}>
+              <Link className='toggle-subcategories' href={route}>{label}</Link>
             </li>
+          ))}
+          <li className='toggle-li' onClick={toggleSubProductos}>
+              <button className='toggle-subcategories' >Item 3</button>
+              {showSubProductos && (
+                <ul className='subtoggle-ul-productos'>
+                  {links.map(({ label, route }) => (
+                    <li className='toggle-li' key={label}>
+                      <Link className='toggle-subcategories' href={route}>{label}</Link>
+                    </li>
+                  ))}
+              </ul>)}
+           </li>
           </ul>
         )}
       </nav>
     </div>
+    </header>
   )
 }
-
-export default Navbar
 
 // import React, { useState } from 'react'
 // import Link from 'next/link'
