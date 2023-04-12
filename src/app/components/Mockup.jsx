@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Mascarilla from '../../../public/assets/MockupOfCreamsAndMask.png'
+import Mascarilla from '../../../public/assets/mockupwebpbackgroundremoval.webp'
 import '../styles/Mockup.css'
 import React from 'react'
 

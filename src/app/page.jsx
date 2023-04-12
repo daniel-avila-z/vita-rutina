@@ -1,6 +1,7 @@
 // import Header from './components/Header'
-import Mascarillas from './components/Macarillas'
+import Beneficios from './components/Beneficios'
 import Mockup from './components/Mockup'
+import TiposMask from './components/TiposMask'
 // import EfectoEscritura from './components/EfectoEscritura'
 
 export default function Home () {
@@ -8,13 +9,14 @@ export default function Home () {
   return (<>
     <main className=''>
       <div className='main-container'>
-        <div>
+        <div className='div-main-container'>
           <h1>Te ofrecemos la mejor rutina para tu cuidado facial,</h1>
           <h2>con cremas 100% naturales</h2>
         </div>
         <Mockup />
       </div>
-      <Mascarillas />
+      <Beneficios />
+      <TiposMask />
     </main>
   </>)
 }

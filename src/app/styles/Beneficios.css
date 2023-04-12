@@ -1,0 +1,18 @@
+.beneficios-main-container{
+    width: 100%;
+    height: 100%;
+}
+.beneficios-titulo-container{
+    text-align: center;
+}
+.beneficios-main-title{
+    font-size: xx-large;
+}
+.beneficio{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    justify-items: center;
+}
