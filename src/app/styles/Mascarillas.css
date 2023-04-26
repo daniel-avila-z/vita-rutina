@@ -1,5 +1,23 @@
-.mask-main-container{
-    /*width: 100%; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&family=Merienda:wght@500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+:root {
+  --border-radius: 12px;
+  --font: 'Belleza', sans-serif;
+  --font2: 'Montserrat', sans-serif;
+  --font3: 'Raleway', sans-serif;
+  --font4: 'Lora', serif;
+}
+.one{
+    background-color: rgb(0, 255, 255);
+}
+.two{
+    background-color: rgb(127, 255, 212);
+}
+.mask-main-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -11,22 +29,31 @@
 .mask-main-title{
     font-size: 40px;
 }
-.mask-card{
+.mask-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mask-card {
     display: flex;
     padding: 10px;
-    /* width: 100vw; */
-    /* height: 100%; */
-    background: #96ffff;
+    width: 29%;
+    height: auto;
+    /* background: #96ffff; */
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 13px;
+    align-items: center;
+    margin: 10px;
 }
 
 .mask-image{
     width: 217px;
     height: auto;
 }
-.mask-text-container{
+.mask-text-container {
     padding: 15px;
     width: 100%;
     height: 100%;
@@ -35,9 +62,10 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    align-items: center;
 }
 .mask-titulo{
-
+    font-family: var(--font3);
     text-align: center;
     width: 50%;
     font-size: 30px;

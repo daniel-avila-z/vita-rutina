@@ -1,23 +1,36 @@
 // import Header from './components/Header'
 import Beneficios from './components/Beneficios'
+import FQ from './components/FQ'
+import Mascarillas from './components/Macarillas'
 import Mockup from './components/Mockup'
-import TiposMask from './components/TiposMask'
+import VentajPsico from './components/VentajPsico'
 // import EfectoEscritura from './components/EfectoEscritura'
+import './styles/FQ.css'
 
 export default function Home () {
   // const words = ['React', 'JavaScript', 'HTML', 'CSS']
   return (<>
     <main className=''>
       <div className='main-container'>
-        <div className='div-main-container'>
-          <h1>Te ofrecemos la mejor rutina para tu cuidado facial,</h1>
-          <h2>con cremas 100% naturales</h2>
+        <div className='copywriting-container'>
+          <h1></h1>
+          <h2>Nuestras mascarillas son fáciles de aplicar, cómodas de usar y muy efectivas.</h2>
+          <h2>Solo tienes que elegir la que mejor se ajuste a tus necesidades y disfrutar de un momento de relax mientras tu piel se nutre y se regenera.</h2>
+          <h2> En pocos minutos, notarás la diferencia: una piel más suave, luminosa y saludable.</h2>
         </div>
         <Mockup />
       </div>
-      <Beneficios />
-      <TiposMask />
+      <div className='container-con-aside'>
+        <div className='i'>
+          <Mascarillas />
+          <Beneficios />
+          <VentajPsico />
+        </div>
+        <FQ />
+      </div>
+
     </main>
+
   </>)
 }
 

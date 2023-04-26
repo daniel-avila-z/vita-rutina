@@ -1,0 +1,22 @@
+.aside{
+    /* position: fixed; */
+    top: 70px;
+    width: -webkit-fill-available;;
+    padding-left: 1em;
+    float: left;
+    position: sticky;
+    /* top: 0px; */
+    outline: 1px solid gold;
+}
+
+.container-con-aside{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+}
+.i{
+    width: 100%;
+}
+.d{
+    width: 100%;
+}

@@ -1,7 +1,7 @@
 
 import '../styles/Beneficios.css'
 
-export default function Beneficio () {
+export default function Beneficios () {
   return (
         <section className='beneficios-main-container'>
             <div className='beneficios-titulo-container'>

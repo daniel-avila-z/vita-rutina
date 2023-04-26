@@ -1,6 +1,7 @@
 .beneficios-main-container{
     width: 100%;
-    height: 100%;
+    height: auto;
+    background-color: aquamarine;
 }
 .beneficios-titulo-container{
     text-align: center;
