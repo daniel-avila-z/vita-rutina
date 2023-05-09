@@ -1,12 +1,16 @@
 .aside{
     /* position: fixed; */
     top: 70px;
-    width: -webkit-fill-available;;
-    padding-left: 1em;
+    width: -webkit-fill-available;
+    padding: 1em;
     float: left;
+    position: -webkit-sticky;
     position: sticky;
     /* top: 0px; */
-    outline: 1px solid gold;
+    outline: 1px solid white;
+    height: auto;
+    background: aquamarine;
+    border-radius: 10px;
 }
 
 .container-con-aside{
@@ -19,4 +23,25 @@
 }
 .d{
     width: 100%;
+}
+.aside-titulo {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 0px;
+}
+.aside-preguntas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    height: inherit;
+    gap: 69px;
+}
+.aside-div-pregunta{
+    text-align-last: center;
+    display: flex;
+    text-align: justify;
+}
+.aside-pregunta{
+
 }

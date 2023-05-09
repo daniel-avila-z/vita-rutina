@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&family=Merienda:wght@500&family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 
 :root {
   --border-radius: 12px;
@@ -9,12 +11,25 @@
   --font2: 'Montserrat', sans-serif;
   --font3: 'Raleway', sans-serif;
   --font4: 'Lora', serif;
+  --font5: 'Bentham', serif;
+  --font6: 'Josefin Sans', sans-serif;
 }
+/* .naranja{
+    text-shadow: 0px 0px 1px #ee5252;
+    color: rgb(0, 0, 0);
+} */
+/* .granada{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px red;
+} */
 .one{
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(253 202 225);
+    text-shadow: 0px 0px 0px rgb(0 0 0);
+    color: rgb(0 0 0);
 }
 .two{
-    background-color: rgb(127, 255, 212);
+    background-color:rgb(97, 247, 255);
+    color: rgb(0, 0, 0);
 }
 .mask-main-container {
     width: 100%;
@@ -38,38 +53,52 @@
 }
 .mask-card {
     display: flex;
-    padding: 10px;
-    width: 29%;
-    height: auto;
+    padding: 0px;
+    /* width: 29%; */
+    /* height: auto; */
     /* background: #96ffff; */
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 13px;
     align-items: center;
     margin: 10px;
+    height: auto;
+    width: 100%;
+}
+.mask-container-img {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* text-align: center; */
+    /* object-fit: none; */
+    height: 420px;
+    width: 327px;
+    float: left;
 }
 
-.mask-image{
-    width: 217px;
-    height: auto;
+.mask-image {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    /* height: 420px; */
+    /* width: 327px; */
+    /* float: left; */
 }
 .mask-text-container {
-    padding: 15px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     display: flex;
     /* align-content: center; */
     flex-direction: column;
-    justify-content: space-evenly;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-around;
 }
 .mask-titulo{
-    font-family: var(--font3);
+    font-family: var(--font5);
     text-align: center;
     width: 50%;
     font-size: 30px;
-    color: #ff003a;
     /* background: #8bffd3; */
     border-radius: 20px;
     margin: 5px 0;
@@ -87,5 +116,8 @@
 }
 .mask-beneficio{
     font-size: 20px;
+    font-family: var(--font6);
+    font-weight: 600;
+    margin: 11px;
 }
 

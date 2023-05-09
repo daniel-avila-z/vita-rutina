@@ -24,9 +24,9 @@ export default function EfectoEscritura ({ words }) {
   }, [letterIndex, currentWord, words, wordIndex])
 
   return (
-    <div className="typing-effect">
-      <span className="word">{currentWord.slice(0, letterIndex)}</span>
-      <span className="cursor" />
+    <div className='typing-effect'>
+      <span className='word'>{currentWord.slice(0, letterIndex)}</span>
+      <span className='cursor' />
     </div>
   )
 }
