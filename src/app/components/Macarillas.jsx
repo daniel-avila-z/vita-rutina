@@ -43,6 +43,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Manzana</h3>
                         <h3 className='mask-main-beneficio'>Hidrata y suaviza</h3>
+                        <p className='mask-beneficio'>La manzana verde tiene propiedades antienvejecimiento, ya que es rica en antioxidantes y vitaminas A, B y C, que ayudan a hidratar y reafirmar la piel del rostro.</p>
                     </div>
                 </div>
                 <div className='mask-card two'>
@@ -62,6 +63,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Blueberry</h3>
                         <h3 className='mask-main-beneficio'>Hidrata y suaviza</h3>
+                        <p className='mask-beneficio'>Combatir los signos de envejecimiento, gracias a los antioxidantes y las vitaminas A y C que contienen los blueberries, que ayudan a neutralizar los radicales libres y prevenir el daño solar.</p>
                     </div>
                 </div>
             </div>
