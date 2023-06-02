@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root{
+    --font1: 'Lexend', sans-serif;
+}
+
 .aside{
     /* position: fixed; */
     top: 70px;
@@ -9,7 +15,7 @@
     /* top: 0px; */
     outline: 1px solid white;
     height: auto;
-    background: aquamarine;
+    background: rgb(221 251 171);
     border-radius: 10px;
 }
 
@@ -21,8 +27,9 @@
 .i{
     width: 100%;
 }
-.d{
-    width: 100%;
+.d {
+    width: 70%;
+    justify-self: right;
 }
 .aside-titulo {
     text-align: center;
@@ -43,5 +50,5 @@
     text-align: justify;
 }
 .aside-pregunta{
-
+    font-family: var(--font1);
 }

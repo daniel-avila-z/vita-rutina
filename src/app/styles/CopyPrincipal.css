@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root{
+    --font1: 'Lexend', sans-serif;
+}
+
+.h1Principal{
+    font-family: var(--font1);
+}

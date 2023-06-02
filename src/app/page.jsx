@@ -1,5 +1,6 @@
 // import Header from './components/Header'
 import Beneficios from './components/Beneficios'
+import CopyPrincipal from './components/CopyPrincipal'
 import FQ from './components/FQ'
 import Mascarillas from './components/Macarillas'
 import Mockup from './components/Mockup'
@@ -13,10 +14,7 @@ export default function Home () {
     <main className=''>
       <div className='main-container'>
         <div className='copywriting-container'>
-          <h1></h1>
-          <h2>Nuestras mascarillas son fáciles de aplicar, cómodas de usar y muy efectivas.</h2>
-          <h2>Solo tienes que elegir la que mejor se ajuste a tus necesidades y disfrutar de un momento de relax mientras tu piel se nutre y se regenera.</h2>
-          <h2> En pocos minutos, notarás la diferencia: una piel más suave, luminosa y saludable.</h2>
+          <CopyPrincipal />
         </div>
         <Mockup />
       </div>

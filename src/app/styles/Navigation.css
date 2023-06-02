@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root{
+    --font1: 'Lexend', sans-serif;
+}
+
 nav{
   display: flex;
   width: 100%;
@@ -25,6 +31,7 @@ nav{
 }
 
 .toggle-category {
+  font-family: var(--font1);
   display: flex;
   gap: 5px;
   font-size: 21px;
@@ -38,6 +45,7 @@ nav{
 }
 
 .toggle-ul-mascarillas{
+  font-family: var(--font1);
   background: #efefef;
   list-style: none;
   height: 204px;
@@ -56,6 +64,7 @@ nav{
   flex-wrap: nowrap;
 }
 .toggle-ul-productos{
+  font-family: var(--font1);
   background: #efefef;
   list-style: none;
   height: 204px;
@@ -74,10 +83,12 @@ nav{
   flex-wrap: nowrap;
 }
 .toggle-li{
+  font-family: var(--font1);
   list-style: none;
   margin-left: 0px;
 }
 .subtoggle-ul-productos{
+  font-family: var(--font1);
   background: #efefef;
   list-style: none;
   height: 204px;
@@ -96,6 +107,7 @@ nav{
   flex-wrap: nowrap;
 }
 .toggle-category a {
+  font-family: var(--font1);
   margin: 0;
   padding: 10px;
   background-color: #eee;
@@ -110,6 +122,7 @@ nav{
 
 .toggle-subcategories,
 .toggle-sub-subcategories {
+  font-family: var(--font1);
   list-style-type: none;
   padding: 0;
   /* margin-left: 40px; */
@@ -137,6 +150,7 @@ nav{
 } */
 
 .toggle-sub-subcategories {
+  font-family: var(--font1);
   list-style-type: none;
   padding: 0;
   /* margin-left: 40px; */
