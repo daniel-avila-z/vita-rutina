@@ -49,7 +49,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Naranja <Image className='icono' src={naranja} /></h3>
                         <h3 className='mask-main-beneficio'>Hidrata e ilumina</h3>
-                        <p className='mask-beneficio'>Exfolia la piel, dejándola con un efecto energizante. Exfoliante y Refrescante. Especial para piel grasa. Es ideal para refrescar tu piel y regenerarla.</p>
+                        <p className='mask-beneficio'>La mascarilla de naranja es ideal para prevenir los signos del envejecimiento, ya que la naranja es un antioxidante natural que aporta vitamina C a la piel. Además, contiene calcio, magnesio, ácido fólico y otros nutrientes beneficiosos para la salud cutánea. Esta mascarilla ayuda a eliminar el exceso de grasa en el rostro y aporta luminosidad y firmeza. Se recomienda aplicarla dos veces por semana durante 15 minutos (o menos si tienes la piel sensible) y realizar masajes faciales para estimular los músculos y evitar las arrugas de expresión.</p>
                     </div>
                 </div>
                 <div className='mask-card kiwi'>
