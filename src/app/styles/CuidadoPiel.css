@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&family=Merienda:wght@500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root {
+  --border-radius: 12px;
+  --font: 'Belleza', sans-serif;
+  --font1: 'Lexend', sans-serif;
+  --font2: 'Montserrat', sans-serif;
+  --font3: 'Raleway', sans-serif;
+  --font4: 'Lora', serif;
+  --font5: 'Bentham', serif;
+  --font6: 'Josefin Sans', sans-serif;
+}
+
+.cuidado-main-container{
+    text-align: center;
+}
+.cuidado-titulo-container{
+
+}
+.cuidado-titulo{
+    font-weight: 600;
+}
+.cuidado-container{
+    padding: 0px 30px 0px 30px;
+}
+.cuidado-text{
+    font-family: var(--font6);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: start;
+}
+.consejo-titulo {
+    font-family: var(--font1);
+    text-align: start;
+    padding-left: 30px;
+}
+
+.cuidado-consejo-text{
+    font-family: var(--font6);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: start;
+}

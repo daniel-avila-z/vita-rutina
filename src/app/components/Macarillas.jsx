@@ -28,8 +28,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo granada'>Mascarilla de Granada <Image className='icono' src={granada} /></h3>
                         <h3 className='mask-main-beneficio granada'>Aclara y nutre</h3>
-                        <p className='mask-beneficio granada'>Ayuda a cicatrizar la epidermis, ya que ayuda a producir colágeno y elastina. <br />
-                        Se utiliza para tratar las enfermedades cutáneas como la psoriasis y el eccema, además de ser antiinflamatorias.</p>
+                        <p className='mask-beneficio granada'>La granada tiene propiedades antioxidantes que combaten el envejecimiento celular y previenen el acné. Además, hidrata la piel seca e irritada gracias a su alto contenido en ácido punícico, un ácido graso que retiene la humedad. También oxigena las células de la piel y le da un aspecto jugoso y luminoso.</p>
                     </div>
                 </div>
                 <div className='mask-card manzana'>
@@ -39,7 +38,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Manzana <Image className='icono' src={manzana} /></h3>
                         <h3 className='mask-main-beneficio'>Hidrata y suaviza</h3>
-                        <p className='mask-beneficio'>La manzana verde tiene propiedades antienvejecimiento, ya que es rica en antioxidantes y vitaminas A, B y C, que ayudan a hidratar y reafirmar la piel del rostro.</p>
+                        <p className='mask-beneficio'>Nutre e hidrata las pieles secas y las suaviza en profundidad. Además, estimula la regeneración celular, desintoxica y revitaliza la piel. Gracias a la vitamina C, tiene una acción antioxidante y antiedad que protege la piel de los radicales libres y de la oxidación, que son los principales causantes del envejecimiento. La vitamina C también ilumina y aclara la piel, ayudando a unificar el tono y a conseguir una piel radiante. Se recomienda aplicar esta mascarilla especialmente antes de dormir para relajar la piel y una vez por semana si se quiere blanquear las manchas.</p>
                     </div>
                 </div>
                 <div className='mask-card naranja'>
@@ -49,7 +48,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Naranja <Image className='icono' src={naranja} /></h3>
                         <h3 className='mask-main-beneficio'>Hidrata e ilumina</h3>
-                        <p className='mask-beneficio'>La mascarilla de naranja es ideal para prevenir los signos del envejecimiento, ya que la naranja es un antioxidante natural que aporta vitamina C a la piel. Además, contiene calcio, magnesio, ácido fólico y otros nutrientes beneficiosos para la salud cutánea. Esta mascarilla ayuda a eliminar el exceso de grasa en el rostro y aporta luminosidad y firmeza. Se recomienda aplicarla dos veces por semana durante 15 minutos (o menos si tienes la piel sensible) y realizar masajes faciales para estimular los músculos y evitar las arrugas de expresión.</p>
+                        <p className='mask-beneficio'>Es ideal para prevenir los signos del envejecimiento, es un antioxidante natural que aporta vitamina C a la piel. Además, contiene calcio, magnesio, ácido fólico y otros nutrientes beneficiosos para la salud cutánea. Esta mascarilla ayuda a eliminar el exceso de grasa en el rostro y aporta luminosidad y firmeza. Se recomienda aplicarla dos veces por semana durante 15 minutos (o menos si tienes la piel sensible) y realizar masajes faciales para estimular los músculos y evitar las arrugas de expresión.</p>
                     </div>
                 </div>
                 <div className='mask-card kiwi'>
@@ -69,7 +68,7 @@ export default function Mascarillas () {
                     <div className='mask-text-container'>
                         <h3 className='mask-titulo'>Mascarilla de Blueberry  <Image className='icono' src={blueberry} /></h3>
                         <h3 className='mask-main-beneficio'>Hidrata y suaviza</h3>
-                        <p className='mask-beneficio'>Combatir los signos de envejecimiento, gracias a los antioxidantes y las vitaminas A y C que contienen los blueberries, que ayudan a neutralizar los radicales libres y prevenir el daño solar.</p>
+                        <p className='mask-beneficio'>Esta mascarilla es apta para cualquier edad, ya que tiene beneficios para resolver y prevenir problemas de la piel. Los arándanos contienen antioxidantes y propiedades antiinflamatorias por las antocianinas, un pigmento que mejora la salud de la piel. Estas sustancias favorecen la circulación sanguínea, lo que aporta oxígeno y nutrientes a la piel, dándole un aspecto saludable y radiante. La forma de aplicar esta mascarilla dependerá de si se quiere reparar o mantener la piel. En cualquier caso, no se recomienda usarla más de dos veces por semana.</p>
                     </div>
                 </div>
             </div>

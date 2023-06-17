@@ -1,10 +1,11 @@
 // import Header from './components/Header'
-import Beneficios from './components/Beneficios'
+// import Beneficios from './components/Beneficios'
 import CopyPrincipal from './components/CopyPrincipal'
 import FQ from './components/FQ'
 import Mascarillas from './components/Macarillas'
 import Mockup from './components/Mockup'
-import VentajPsico from './components/VentajPsico'
+import CuidadoPiel from './components/CuidadoPiel'
+// import VentajPsico from './components/VentajPsico'
 // import EfectoEscritura from './components/EfectoEscritura'
 import './styles/FQ.css'
 
@@ -18,15 +19,13 @@ export default function Home () {
         </div>
         <Mockup />
       </div>
-      <div className='container-con-aside'>
-        <div className='i'>
+      <div className='container'>
           <Mascarillas />
-          <Beneficios />
-          <VentajPsico />
-        </div>
-        <FQ />
+          {/* <Beneficios /> */}
+          <CuidadoPiel />
+          {/* <VentajPsico />} */}
       </div>
-
+      <FQ />
     </main>
 
   </>)

@@ -19,10 +19,12 @@
     border-radius: 10px;
 }
 
-.container-con-aside{
+.container {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 0.4fr;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 .i{
     width: 100%;
