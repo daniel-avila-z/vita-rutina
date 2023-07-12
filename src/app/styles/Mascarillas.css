@@ -45,7 +45,7 @@
     font-size: 40px;
 }
 .icono{
-    width: 6%;
+    width: 8%;
     height: auto;
 }   
 .image-brillo1 {
@@ -60,8 +60,8 @@
 .mask-container {
     width: 100%;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
 }
 .mask-card {
@@ -70,26 +70,28 @@
     /* width: 29%; */
     /* height: auto; */
     /* background: #96ffff; */
-    flex-direction: row;
     border-radius: 13px;
     margin: 10px;
-    height: 280px;
-    width: 100%;
-    align-items: center;
+    height: -moz-fit-content;
+    /* height: auto; */
+    width: 31%;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .mask-container-img {
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 100%;
+    height: auto;
+    text-align: center;
     /* text-align: center; */
     /* object-fit: none; */
-    height: 280px;
-    width: auto;
-    float: left;
+    /* height: 280px; */
+    /* width: auto; */
+    /* float: left; */
 }
 
 .mask-image {
-    width: inherit;
-    height: inherit;
+    width: 50%;
+    height: auto;
     border-radius: 10px;
     /* height: 420px; */
     /* width: 327px; */
@@ -110,7 +112,7 @@
     display: flex;
     font-family: var(--font5);
     text-align: center;
-    width: 50%;
+    width: 100%;
     font-size: 30px;
     /* background: #8bffd3; */
     border-radius: 20px;
@@ -123,7 +125,7 @@
 
 .mask-main-beneficio{
     /* background: aquamarine; */
-    width: 40%;
+    width: auto;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
